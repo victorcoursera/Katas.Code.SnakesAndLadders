@@ -13,4 +13,6 @@ As I said in the previous section, I didn't include a web app so it is a **conso
 So, in order to run the whole app with some predefined actions, you just have to run ConsoleApp project.
 In test folder, you can also find a test project that allows you to run the tests associated to US 1, US 2 and US 3.
 
+Also, be aware that both the console app and the test project are configured to be run on a database set in appsettings.json (the file is contained in both projects). Make sure that the connection string has the proper values so the apps can create tables and populate data with no problem.
+
 As an enthusiastic developer and a person quite interested in best practices regarding software architecture and clean code, I must say I had quite fun doing this exercise. So, thank you and happy reviewing!
